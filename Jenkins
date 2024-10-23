@@ -6,10 +6,10 @@ pipeline {
                 echo "Building"
                 cat 'README.md'
                 dir('a') {
-                    git branch: 'main', url: 'git@github.com:HsuShelley/A.git', credentialsId:"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"
+                    git branch: 'main', url: 'git@github.com:HsuShelley/A.git'
                 }
                 dir('b') {
-                    git branch: 'main', url: 'git@github.com:HsuShelley/B.git',  credentialsId:"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"
+                    git branch: 'main', url: 'git@github.com:HsuShelley/B.git'
                 }
             }
         }

@@ -3,10 +3,10 @@ pipelin{
 		echo "building"
 		cat README.md
 		dir('a') {
-                    git branch: 'master', url: 'git@github.com:HsuShelley/A.git'
+                    git branch: 'main', url: 'git@github.com:HsuShelley/A.git'
                 }
 		dir('b') {
-                    git branch: 'master', url: 'git@github.com:HsuShelley/B.git'
+                    git branch: 'main', url: 'git@github.com:HsuShelley/B.git'
                 }
 	}
 }

@@ -1,0 +1,6 @@
+pipelin{
+	environment{
+		echo "building"
+		cat README.md
+	}
+}

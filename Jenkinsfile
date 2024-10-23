@@ -1,5 +1,5 @@
-// pipeline {
-    // agent any 
+pipeline {
+    agent any 
     stages {
         stage('Checkout') {
             steps {
@@ -22,7 +22,7 @@
             }
       }
     }
-// }
+}
 
 
 //     git branch: 'main', url: 'git@github.com:HsuShelley/A.git'

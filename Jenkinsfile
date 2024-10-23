@@ -4,7 +4,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Building"
-                sh cat 'README.md'
+                step{
+                    sh cat 'README.md'
+                }
                 // dir('a') {
                 //     git branch: 'main', url: 'git@github.com:HsuShelley/A.git'
                 // }
